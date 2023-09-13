@@ -1,0 +1,26 @@
+.container-big-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-big-card {
+    height: 20rem;
+    width: 30rem;
+}
+
+.big-card-title {
+    color: grey;
+    font-size: 1.7rem;
+    margin: .5rem;
+}
+
+.big-card-description {
+    color: whitesmoke;
+    width: 30rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}

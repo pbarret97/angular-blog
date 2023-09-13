@@ -1,0 +1,22 @@
+* {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container-principal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: .4rem 7rem;
+}
+
+.article-main {
+    width: 41vw;
+    min-width: 41vw;
+    margin-bottom: 1.5rem;
+}
+
+.aside-bar {
+    width: 39vw;
+    min-width: 39vw;
+}

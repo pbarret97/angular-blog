@@ -1,0 +1,36 @@
+a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+#container-small-card {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    border-bottom: .5px solid gray;
+    padding: .3rem;
+    margin-bottom: 1.5rem;
+}
+
+.img-small-card {
+    width: 13vw;
+    margin-right: .2rem;
+ 
+}
+
+.aside-small-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-small-card {
+    margin-bottom: .1rem;
+}
+
+.description-small-card {
+    width: 20rem;
+}
