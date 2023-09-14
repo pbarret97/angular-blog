@@ -4,8 +4,8 @@
 }
 
 .menu-title > h1 {
-    margin: 1rem auto 1rem auto;
-    font-size: 7.5rem;
+    margin: .5rem auto .5rem auto;
+    font-size: 6rem;
     display: flex;
     justify-content: center;
 }

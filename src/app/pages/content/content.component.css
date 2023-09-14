@@ -1,0 +1,57 @@
+* {
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+#container-news {
+  
+    width: 80vw;
+    height: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aside-img {
+    width: 31rem;
+    margin-right: .4rem;
+}
+
+.img {
+    height: 21rem;
+    width: 30rem;
+}
+
+.title-area {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title-area > h1 {
+    color: gainsboro;
+    margin-top: .4rem;
+}
+
+.aside-description {
+    width: 35rem;
+}
+
+.content-news {
+    font-size: 1.5rem;
+    text-align: justify;
+}

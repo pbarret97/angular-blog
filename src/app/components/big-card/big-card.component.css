@@ -1,3 +1,12 @@
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
 .container-big-card {
     height: 100%;
     display: flex;
@@ -15,6 +24,7 @@
     color: grey;
     font-size: 1.7rem;
     margin: .5rem;
+    width: 30rem;
 }
 
 .big-card-description {

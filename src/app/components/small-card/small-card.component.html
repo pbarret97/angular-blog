@@ -1,16 +1,18 @@
 <div id="container-small-card">
     <div>
-        <img class="img-small-card" src="https://i0.wp.com/hypando.com.br/wp-content/uploads/2023/05/Color-Vegeta-Dios-de-la-Destrucc.jpg?fit=664%2C401&ssl=1" 
-        alt="vegeta nova transformação">
+        <img class="img-small-card" src="{{photoCover}}" 
+        alt="{{photoDescription}}">
     </div>
 
     <div class="aside-small-card">
         <div class="title-small-card">
-            <h1>Uma nova transformação de vegeta?</h1>
+            <h1>
+                <a [routerLink]="['content', id]">{{ cardTitle }}</a>            
+            </h1>
         </div>
 
         <div class="description-small-card">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard... <a href="#">leia mais</a></p>
+            <p>{{ cardDescription }} <a [routerLink]="['content', id]">leia mais</a></p>
         </div>
     </div>
 
